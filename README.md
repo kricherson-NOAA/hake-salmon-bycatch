@@ -24,10 +24,3 @@ Files include:
     - Right now this script isn't very flexible. It assumes that you've run 03a, 03b, and 03c each with all the models (and each run only once). If you've done that, you should be able to run the whole script all at once. 
 8. "05_plot_results.R"
     - Produces some images for the manuscript. You might need to fiddle with the dimensions or file type of the saved plots, but initially you can just run the whole script and look at the figures that are saved to image files.
-
-And some other notes: 
-- files with "jittered" were for me to use on a non-NOAA computer with jittered data. 
-- the files with short names that start with "b-" and "g-" were the 2nd to last generation of code. I ran some of them on Tantalus. 
-- I used the "tune_xgboost_models.R" and "tune_randomforest_models.R" to haphazardly alter the tuning parameters for those models to try to get a better idea of what works well with this dataset, but it was very far from comprehensive. 
-- "make_into_shiny.R" is useless. I never put any effort into creating shiny plots. 
-- The folder "Stock scripts" includes the scripts from Stock et al. 2020: https://doi.org/10.1139/cjfas-2018-0281 and https://brianstock.github.io/spatialbycatch/ 
